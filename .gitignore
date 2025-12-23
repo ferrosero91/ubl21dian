@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.env
+
+# Certificados (NUNCA subir)
+*.p12
+*.pfx
+*.pem
+*.key
+*.crt
+*.cer
+
+# Archivos de prueba con datos sensibles
+certificate.p12
+cert.pem
+key.pem
+
+# XMLs generados en pruebas
+invoice_signed.xml
+invoice_unsigned.xml
+dian_request.xml
+dian_response.xml
+dian_send_request.xml
+dian_send_response.xml
+soap_request.xml
+sample_invoice.xml
+send_bill_request.xml
+
+# ZIPs generados
+*.zip
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
