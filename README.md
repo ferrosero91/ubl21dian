@@ -2,7 +2,7 @@
 
 Biblioteca Python para firma electrónica de documentos UBL 2.1 para la DIAN Colombia.
 
-Migración completa de la biblioteca PHP [soenac/ubl21dian](https://github.com/soenac/ubl21dian).
+
 
 ## Estado
 
@@ -65,7 +65,7 @@ response = Client(template).get_response()
 
 ## Documentación
 
-Ver [MIGRATION_STATUS.md](MIGRATION_STATUS.md) para documentación completa.
+
 
 ## Tests
 
